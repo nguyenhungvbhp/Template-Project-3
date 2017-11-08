@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Add data</title>
+	<title>Change password</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style_add_data.css">
+</head>
+<body>
+	
+	<!-- Bắt đầu navbar -->
+	<nav class="navbar navbar-default background-nav" role="navigation">
+        	<div class="container-fluid">
+        		<!-- Brand and toggle get grouped for better mobile display -->
+        		<div class="navbar-header">
+        			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        			</button>
+        			<a class="navbar-brand" href="#">Paper</a>
+        		</div>
+        
+        		<!-- Collect the nav links, forms, and other content for toggling -->
+        		<div class="collapse navbar-collapse navbar-ex1-collapse">
+        			<ul class="nav navbar-nav">
+        				<li><a href="#">Add data</a></li>
+        				<!-- <li><a href="#">Link</a></li> -->
+        			</ul>
+        			
+        			<ul class="nav navbar-nav navbar-right">
+        				<li class="dropdown">
+        					<a href="#" class="dropdown-toggle" data-toggle="dropdown">User <b class="caret"></b></a>
+        					<ul class="dropdown-menu">
+        						<li><a href="#">Change user name and password</a></li>
+        						<div class="divider"></div>
+        						<li><a href="#">Logout 2</a></li>
+        				
+
+        					</ul>
+        				</li>
+        			</ul>
+        		</div><!-- /.navbar-collapse -->
+        	</div>
+        </nav> <!-- Kết thúc navbar -->
+
+        <div class="container">
+        	<div class="huong-dan">
+        		<p class="text-justify">
+        			<b>Guide: </b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        		</p>
+
+        	</div>
+
+			<div class="row import-file">
+				
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+					<div class="row">
+
+                        <!--Hàng paper-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<p>File paper.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="paper">
+							</span>
+						</div>
+                        <!--kết thúc hàng paper-->
+
+
+                        <!--Hàng author-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File author.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="author">
+							</span>
+						</div>
+                        <!--Kết thúc hàng author-->
+
+                        <!--Hamg paper_author-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File paper_author.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="paper_author">
+							</span>
+						</div>
+                        <!--Kết thúc hàng paper_author-->
+
+                        <!--Hàng subject-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File subject.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="subject">
+							</span>
+						</div>
+                        <!--Kết thúc hàng subject-->
+
+                        <!--Hàng author_subject-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File author_subject.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="author_subject">
+							</span>
+						</div>
+                        <!--Kết thúc hàng author_subject-->
+
+                        <!--Hàng institute-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File institute.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="institute">
+							</span>
+						</div>
+                        <!--Kết thúc hàng institute-->
+
+                        <!--Hàng author_institute-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File author_institute.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="author_institute">
+							</span>
+						</div>
+                        <!--Kết thúc hàng author_institute-->
+
+                        <!--Hàng city_state-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File city_state.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="city_state">
+							</span>
+						</div>
+                        <!--Kết thúc hàng city_state-->
+
+                        <!--Hàng country-->
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<p>File country.csv</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+							<span class="btn btn-default btn-file">
+   				 				Browse <input type="file" id="country">
+							</span>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-sm-offset-3 margin-top margin_bottom">
+							<button class="btn btn-primary">Apply</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+        </div>
+</body>
+</html>
